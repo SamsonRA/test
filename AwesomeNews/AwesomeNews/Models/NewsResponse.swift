@@ -8,6 +8,6 @@
 import Foundation
 
 struct NewsResponse: Decodable {
-    let news: [NewsItem]
+    let news: [RawNewsItem]
     let totalCount: Int
 }
